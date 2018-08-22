@@ -8,8 +8,8 @@
 namespace ${Domain.getName().toLowerCase()} {
     export namespace test {
 $BEGIN_BO_MODEL$
-        /** ${Model.getDescription()} */
-        export class ${Model.getName()} extends ibas.TestCase
+        /** 单元测试-${Model.getDescription()} */
+        export class Test${Model.getName()} extends ibas.TestCase {
 
         }
 $END_BO_MODEL$
